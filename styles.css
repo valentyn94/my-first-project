@@ -1,9 +1,9 @@
 .text-style {
-    font-family: "Montserrat", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 150%;
-        color: #1d1b1f;
+font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+
+    /* line-height: 72px; */
+    line-height: 112%;
+    color: #1d1b1f;
 }
