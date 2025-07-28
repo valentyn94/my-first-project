@@ -1,9 +1,41 @@
 .text-style {
-font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
 
-    /* line-height: 72px; */
-    line-height: 112%;
-    color: #1d1b1f;
+  /* line-height: 72px; */
+  line-height: 112%;
+  color: #1d1b1f;
+  text-align: center;
+}
+
+main {
+  border: 2px solid #000;
+  /* Черная рамка толщиной 2px */
+  border-radius: 12px;
+  /* Скругление углов (12px) */
+  padding: 20px;
+  /* Внутренние отступы, чтобы текст не прилипал */
+  width: 300px;
+  /* Ширина рамки (можно менять) */
+  box-sizing: border-box;
+  /* Чтобы padding входил в ширину */
+  background-color: #fff;
+  /* Белый фон, чтобы текст читался */
+}
+
+body {
+  display: flex;
+  /* Включаем flex-контейнер */
+  justify-content: center;
+  /* Горизонтальное выравнивание по центру */
+  align-items: center;
+  /* Вертикальное выравнивание по центру */
+  height: 100vh;
+  /* Высота body = высоте экрана */
+  margin: 0;
+
+  background-color: #f0f0f0;
+
+  font-family: "Montserrat", sans-serif;
 }
