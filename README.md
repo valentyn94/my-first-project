@@ -1,3 +1,3 @@
 # my-first-project
 
-This is my first perfect project
+This is my first simple project
